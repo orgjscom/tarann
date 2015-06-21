@@ -59,7 +59,7 @@
     "cms"
   ],
   "repository": {
-    "type": "mercurial",
+    "type": "git",
     "url": "https://code.google.com/p/taracotjs/"
   },
   "author": "Michael A. Matveev <xtreme@rh1.ru>",
