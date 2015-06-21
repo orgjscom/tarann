@@ -1,5 +1,5 @@
 {
-  "name": "taracotjs",
+  "name": "tarann",
   "version": "0.5.0-2",
   "description": "TaracotJS CMS: the simple content management system based on Node.js",
   "main": "app.js",
@@ -50,7 +50,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "cd bin/ node webserver"
   },
   "keywords": [
     "node.js",
@@ -65,5 +65,8 @@
   },
   "author": "Michael A. Matveev <xtreme@rh1.ru>",
   "license": "GPL v.3",
-  "subdomain": "undefined-tarann"
+  "subdomain": "undefined-tarann",
+  "bin": {
+    "tarann": "config-script-generator.js"
+  }
 }
