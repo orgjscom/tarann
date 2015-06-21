@@ -1,6 +1,6 @@
 {
   "name": "taracotjs",
-  "version": "0.5.0",
+  "version": "0.5.0-2",
   "description": "TaracotJS CMS: the simple content management system based on Node.js",
   "main": "app.js",
   "engines": {
@@ -49,7 +49,8 @@
     "grunt-jsbeautifier": "~0.2.7"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "keywords": [
     "node.js",
@@ -63,5 +64,6 @@
     "url": "https://code.google.com/p/taracotjs/"
   },
   "author": "Michael A. Matveev <xtreme@rh1.ru>",
-  "license": "GPL v.3"
+  "license": "GPL v.3",
+  "subdomain": "undefined-tarann"
 }

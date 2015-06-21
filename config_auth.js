@@ -8,17 +8,17 @@ module.exports = {
     },
 
     'google': {
-        'clientID': 'your client ID here',
-        'clientSecret': 'your client secret here',
-        'requestURL': 'https://accounts.google.com/o/oauth2/auth?redirect_uri=[redirect_uri]&response_type=code&client_id=[client_id]&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile',
+        'clientID': '456384544947-nfgfo33up10he046213cnv9o0p8gq98m.apps.googleusercontent.com',
+        'clientSecret': 'rBCV9SoYlRrjy0IsbjzgwoVP',
+        'requestURL': 'https://accounts.google.com/o/oauth2/auth?redirect_uri=[redirect_uri]&response_type=code&client_id=456384544947-nfgfo33up10he046213cnv9o0p8gq98m.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile',
         'callbackURL': 'https://demo.taracot.org/auth/google'
     },
 
     'yandex': {
-        'clientID': 'your client ID here',
-        'clientSecret': 'your client secret here',
-        'requestURL': 'https://oauth.yandex.ru/authorize?response_type=code&client_id=[client_id]',
-        'callbackURL': 'https://demo.taracot.org/auth/yandex'
+        'clientID': 'f7193f7de386490c95cc15ff5b32f123',
+        'clientSecret': 'a806bef5a22249109d98558a9441d0f0',
+        'requestURL': 'https://oauth.yandex.ru/authorize?response_type=code&client_id=f7193f7de386490c95cc15ff5b32f123',
+        'callbackURL': 'https://oauth.yandex.ru/verification_code'
     },
 
     'vk': {

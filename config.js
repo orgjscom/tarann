@@ -46,10 +46,10 @@ var config = {
 	"salt": "U82ClYO4VIcrrTESXGedc4Q9wTumgn9VorBlqtu4pvf4HNu95aAAb3SSUgroGtS9",
 	"redis": {
 		"active": true,
-		"host": "agile-rosewood-459.redisgreen.net",
-		"port": 11042,
-		"prefix": "x",
-		"password": "77ff87ab5bd64d779afbfec171ebdda0"
+		"host": "localhost",
+		"port": 6379,
+		"prefix": "taracotjs_",
+		"password": ""
 	},
 	"mailer": {
 		"sender": "TaracotJS <noreply@taracot.org>",
