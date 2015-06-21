@@ -1,0 +1,1 @@
+module.exports=function(e){var r=e.get("express").Router();return r};

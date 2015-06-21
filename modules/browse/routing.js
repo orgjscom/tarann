@@ -1,0 +1,1 @@
+var routing={prefix:"",cp_id:"files",cp_prefix:"/cp/browse/",hidden:!0};module.exports=routing;

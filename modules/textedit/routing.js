@@ -1,0 +1,1 @@
+var routing={prefix:"",cp_id:"textedit",cp_prefix:"/cp/textedit/",hidden:!0};module.exports=routing;
