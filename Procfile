@@ -1,1 +1,1 @@
-web: cd bin/ && node webserver
+web:  cd bin/ && node webserver
