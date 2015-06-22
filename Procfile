@@ -1,1 +1,1 @@
-web:  heroku addons:destroy rediscloud && cd bin/ && node webserver
+web: cd bin/ && node webserver
