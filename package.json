@@ -4,7 +4,8 @@
   "description": "TaracotJS CMS: the simple content management system based on Node.js",
   "main": "app.js",
   "engines": {
-    "node": "0.10.x"
+    "node": "0.10.x",
+    "npm": "*"
   },
   "dependencies": {
     "archiver": "^0.10.0",
