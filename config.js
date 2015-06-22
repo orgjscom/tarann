@@ -46,10 +46,10 @@ var config = {
 	"salt": "U82ClYO4VIcrrTESXGedc4Q9wTumgn9VorBlqtu4pvf4HNu95aAAb3SSUgroGtS9",
 	"redis": {
 		"active": true,
-		"host": "pub-redis-15767.eu-west-1-1.2.ec2.garantiadata.com",
-		"port": 15767,
-		"prefix": "taracotjs_",
-		"password": "imazhQ0SvsgFa5D3"
+		"host": "ec2-176-34-249-171.eu-west-1.compute.amazonaws.com",
+		"port": 7309,
+		"prefix": "h",
+		"password": "p68sjlc9ukl7fa1c85ql9be9t1"
 	},
 	"mailer": {
 		"sender": "TaracotJS <noreply@taracot.org>",
