@@ -46,10 +46,11 @@ var config = {
 	"salt": "U82ClYO4VIcrrTESXGedc4Q9wTumgn9VorBlqtu4pvf4HNu95aAAb3SSUgroGtS9",
 	"redis": {
 		"active": true,
-		"host": "ec2-176-34-249-171.eu-west-1.compute.amazonaws.com",
-		"port": 7309,
-		"prefix": "h",
-		"password": "p68sjlc9ukl7fa1c85ql9be9t1"
+		"host": "soapfish.redistogo.com",
+		"port": 9817,
+		"prefix": "redis://redistogo",
+		"url": "redis://redistogo:a9bb306806ca5b9fef42839382b0c62a@soapfish.redistogo.com:9817/",
+		"password": "a9bb306806ca5b9fef42839382b0c62a"
 	},
 	"mailer": {
 		"sender": "TaracotJS <noreply@taracot.org>",
@@ -67,7 +68,7 @@ var config = {
 		}
 	},
 	"mongo": {
-		"url": "mongodb://taracot_cms:taracot_cms@ds035027.mongolab.com:35027/taracot_cms/taracot_cms",
+		"url": "mongodb://taracot_cms:taracot_cms@ds035027.mongolab.com:35027/taracot_cms",
 		"options": {
 			"server": {
 				"auto_reconnect": false,

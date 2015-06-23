@@ -36,7 +36,7 @@
     "node-whois": "^2.1.0",
     "nodemailer": "^1.0.2",
     "nodemailer-sendmail-transport": "^0.1.2",
-    "redis": "^0.10.2",
+    "redis": "0.12.x",
     "request": "^2.51.0",
     "snowball": "^0.3.1",
     "socket.io": "^1.1.0",
